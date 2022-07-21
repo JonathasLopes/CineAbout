@@ -15,12 +15,15 @@ class HomeController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        Header()
+        HeaderAndFooter()
     }
     
-    func Header() {
+    func HeaderAndFooter() {
         //setting attributes to large title
+        self.navigationItem.title = "Início"
+        self.navigationController?.navigationBar.largeTitleTextAttributes = attrs
+        
+        //setting title to navbar
         self.title = "Início"
-        self.navigationController!.navigationBar.largeTitleTextAttributes = attrs
     }
 }
