@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		868DCC9228879266005D29BC /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868DCC9128879266005D29BC /* GradientView.swift */; };
+		868DCC992887AED5005D29BC /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 868DCC982887A206005D29BC /* Roboto-Thin.ttf */; };
+		868DCC9A2887AED9005D29BC /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 868DCC952887A1E8005D29BC /* Roboto-Light.ttf */; };
+		868DCC9B2887AEDC005D29BC /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 868DCC962887A1F2005D29BC /* Roboto-Regular.ttf */; };
+		868DCC9C2887AEE0005D29BC /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 868DCC972887A1FD005D29BC /* Roboto-Medium.ttf */; };
+		868DCC9D2887AEE3005D29BC /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 868DCC942887A1DA005D29BC /* Roboto-Bold.ttf */; };
 		86AE114128863558005F5B1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AE114028863558005F5B1C /* AppDelegate.swift */; };
 		86AE114328863558005F5B1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AE114228863558005F5B1C /* SceneDelegate.swift */; };
-		86AE114528863558005F5B1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AE114428863558005F5B1C /* ViewController.swift */; };
+		86AE114528863558005F5B1C /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AE114428863558005F5B1C /* HomeController.swift */; };
 		86AE114828863558005F5B1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AE114628863558005F5B1C /* Main.storyboard */; };
 		86AE114A2886355C005F5B1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86AE11492886355C005F5B1C /* Assets.xcassets */; };
 		86AE114D2886355C005F5B1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AE114B2886355C005F5B1C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		868DCC9128879266005D29BC /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		868DCC942887A1DA005D29BC /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		868DCC952887A1E8005D29BC /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		868DCC962887A1F2005D29BC /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		868DCC972887A1FD005D29BC /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		868DCC982887A206005D29BC /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		86AE113D28863558005F5B1C /* CineAbout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CineAbout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86AE114028863558005F5B1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86AE114228863558005F5B1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		86AE114428863558005F5B1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86AE114428863558005F5B1C /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		86AE114728863558005F5B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86AE11492886355C005F5B1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86AE114C2886355C005F5B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +49,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		868DCC8E28878C3B005D29BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				868DCC932887A170005D29BC /* Fonts */,
+				86AE11492886355C005F5B1C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		868DCC8F28878C64005D29BC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				86AE114428863558005F5B1C /* HomeController.swift */,
+				86AE114028863558005F5B1C /* AppDelegate.swift */,
+				86AE114228863558005F5B1C /* SceneDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		868DCC9028878C6F005D29BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				868DCC9128879266005D29BC /* GradientView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		868DCC932887A170005D29BC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				868DCC982887A206005D29BC /* Roboto-Thin.ttf */,
+				868DCC952887A1E8005D29BC /* Roboto-Light.ttf */,
+				868DCC962887A1F2005D29BC /* Roboto-Regular.ttf */,
+				868DCC972887A1FD005D29BC /* Roboto-Medium.ttf */,
+				868DCC942887A1DA005D29BC /* Roboto-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		86AE113428863558005F5B1C = {
 			isa = PBXGroup;
 			children = (
@@ -56,11 +107,10 @@
 		86AE113F28863558005F5B1C /* CineAbout */ = {
 			isa = PBXGroup;
 			children = (
-				86AE114028863558005F5B1C /* AppDelegate.swift */,
-				86AE114228863558005F5B1C /* SceneDelegate.swift */,
-				86AE114428863558005F5B1C /* ViewController.swift */,
+				868DCC9028878C6F005D29BC /* View */,
+				868DCC8F28878C64005D29BC /* Controller */,
+				868DCC8E28878C3B005D29BC /* Resources */,
 				86AE114628863558005F5B1C /* Main.storyboard */,
-				86AE11492886355C005F5B1C /* Assets.xcassets */,
 				86AE114B2886355C005F5B1C /* LaunchScreen.storyboard */,
 				86AE114E2886355C005F5B1C /* Info.plist */,
 			);
@@ -125,8 +175,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				868DCC9B2887AEDC005D29BC /* Roboto-Regular.ttf in Resources */,
+				868DCC992887AED5005D29BC /* Roboto-Thin.ttf in Resources */,
 				86AE114D2886355C005F5B1C /* LaunchScreen.storyboard in Resources */,
+				868DCC9C2887AEE0005D29BC /* Roboto-Medium.ttf in Resources */,
+				868DCC9A2887AED9005D29BC /* Roboto-Light.ttf in Resources */,
 				86AE114A2886355C005F5B1C /* Assets.xcassets in Resources */,
+				868DCC9D2887AEE3005D29BC /* Roboto-Bold.ttf in Resources */,
 				86AE114828863558005F5B1C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +193,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86AE114528863558005F5B1C /* ViewController.swift in Sources */,
+				86AE114528863558005F5B1C /* HomeController.swift in Sources */,
 				86AE114128863558005F5B1C /* AppDelegate.swift in Sources */,
+				868DCC9228879266005D29BC /* GradientView.swift in Sources */,
 				86AE114328863558005F5B1C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,11 +346,14 @@
 				DEVELOPMENT_TEAM = AZ4UKU4Y6G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CineAbout/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cine About";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,11 +377,14 @@
 				DEVELOPMENT_TEAM = AZ4UKU4Y6G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CineAbout/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cine About";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
