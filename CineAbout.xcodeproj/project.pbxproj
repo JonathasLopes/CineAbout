@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86607669288A3849002DE12A /* CustomCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86607668288A3849002DE12A /* CustomCellView.swift */; };
 		868DCC9228879266005D29BC /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868DCC9128879266005D29BC /* GradientView.swift */; };
 		868DCC992887AED5005D29BC /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 868DCC982887A206005D29BC /* Roboto-Thin.ttf */; };
 		868DCC9A2887AED9005D29BC /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 868DCC952887A1E8005D29BC /* Roboto-Light.ttf */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86607668288A3849002DE12A /* CustomCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellView.swift; sourceTree = "<group>"; };
 		868DCC9128879266005D29BC /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		868DCC942887A1DA005D29BC /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		868DCC952887A1E8005D29BC /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				868DCC9128879266005D29BC /* GradientView.swift */,
+				86607668288A3849002DE12A /* CustomCellView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				8699532D2888DEB200CD5046 /* MovieService.swift in Sources */,
 				86AE114528863558005F5B1C /* HomeController.swift in Sources */,
 				86AE114128863558005F5B1C /* AppDelegate.swift in Sources */,
+				86607669288A3849002DE12A /* CustomCellView.swift in Sources */,
 				868DCC9228879266005D29BC /* GradientView.swift in Sources */,
 				86AE114328863558005F5B1C /* SceneDelegate.swift in Sources */,
 				8699532A2888DC7A00CD5046 /* Movie.swift in Sources */,
