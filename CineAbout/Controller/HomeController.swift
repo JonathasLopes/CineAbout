@@ -73,11 +73,18 @@ extension HomeController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: CustomCellView.identifier, for: indexPath)
+        
+        let movieData: Movie = self.movies[indexPath.row]
+        let baseUrl = "https://image.tmdb.org/t/p/w300"
+        let poster = baseUrl + movieData.posterPath!
         var content = cell.defaultContentConfiguration()
         
+        let url = NSURL(string: poster)
+        let imagedata = NSData.init(contentsOf: url! as URL)
+        content.image = UIImage(data: imagedata! as Data)
         content.text = self.movies[indexPath.row].title
         content.textProperties.color = .white
-        content.secondaryText = self.movies[indexPath.row].releaseDate
+        content.secondaryText = movieData.releaseDate
         content.secondaryTextProperties.color = .white
         cell.backgroundColor = .clear
         
